@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1000.0" styleClass="root" stylesheets="@carirumahsakit.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <HBox layoutX="59.0" layoutY="279.0" prefHeight="287.0" prefWidth="872.0" spacing="50.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="266.0" prefWidth="174.0" styleClass="rs-button">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="266.0" prefWidth="174.0" styleClass="rs-button">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="266.0" prefWidth="174.0" styleClass="rs-button">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="266.0" prefWidth="174.0" styleClass="rs-button">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+
+        <ComboBox fx:id="comboWilayah" layoutX="734.0" layoutY="69.0" prefWidth="200" promptText="Pilih Wilayah Kota" />
+      <ImageView fitHeight="33.0" fitWidth="244.0" layoutX="42.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/LogoMySugar.png" />
+         </image>
+      </ImageView>
+  <TextField alignment="CENTER" layoutX="355.0" layoutY="117.0" prefHeight="68.0" prefWidth="242.0" text="Cari Rumah Sakit" />
+  <ImageView fitHeight="33.0" fitWidth="52.0" layoutX="365.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+          <Image url="@resources/Search.png" />
+      </image>
+  </ImageView>
+           <VBox layoutX="786.0" layoutY="192.0" />
+           <VBox layoutX="611.0" layoutY="196.0">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+           </VBox>
+           <VBox layoutX="425.0" layoutY="198.0">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+           </VBox>
+           <VBox layoutX="59.0" layoutY="204.0">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+           </VBox>
+            <Label layoutX="75.0" layoutY="503.0" styleClass="hospital-address" text="no.847 depan Pakuwon Mall">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+            <Label layoutX="75.0" layoutY="485.0" styleClass="hospital-address" text="Jalan, Ringroad utara">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+            <Label layoutX="88.0" layoutY="427.0" styleClass="hospital-name" text="Rumah sakit JIH">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="304.0" layoutY="503.0" styleClass="hospital-address" text="No.3782 , Barat Indomaret">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="303.0" layoutY="485.0" styleClass="hospital-address" text="Jalan Pondok Indah">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="308.0" layoutY="426.0" prefHeight="36.0" prefWidth="150.0" styleClass="hospital-name" text="Rumah Sakit Indah" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="528.0" layoutY="501.0" styleClass="hospital-address" text="No.223 , Selatan SCBD">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="527.0" layoutY="483.0" styleClass="hospital-address" text="Jalan Surya Kencana">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="526.0" layoutY="429.0" styleClass="hospital-name" text="Rumah Sakit Keluarga">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="751.0" layoutY="500.0" prefHeight="30.0" prefWidth="200.0" styleClass="hospital-address" text="No.123,Perbatasan Yogyakarta">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="751.0" layoutY="482.0" styleClass="hospital-address" text="Jalan Solo Baru">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="757.0" layoutY="432.0" styleClass="hospital-name" text="Rumah Sakit Siloam">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </Label>
+      <ImageView fitHeight="116.0" fitWidth="162.0" layoutX="79.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Rs%20JIH.png" />
+         </image></ImageView>
+      <ImageView fitHeight="116.0" fitWidth="162.0" layoutX="301.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Rs%20Pondok.png" />
+         </image></ImageView>
+      <ImageView fitHeight="107.0" fitWidth="162.0" layoutX="526.0" layoutY="297.0" pickOnBounds="true">
+         <image>
+            <Image url="@resources/RsKeluarga.png" />
+         </image></ImageView>
+      <ImageView fitHeight="107.0" fitWidth="162.0" layoutX="751.0" layoutY="297.0" pickOnBounds="true">
+         <image>
+            <Image url="@resources/Rs.png" />
+         </image>
+      </ImageView>
+      <Button alignment="BASELINE_LEFT" layoutX="851.0" layoutY="234.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="118.0" text="Lihat Semua" />
+
+    </children>
+</AnchorPane>

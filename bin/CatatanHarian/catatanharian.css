@@ -1,0 +1,116 @@
+/* catatan.css */
+
+.root {
+    -fx-background-color: #ADEED9;
+}
+.rounded-textfield {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-padding: 5 10 5 10;
+     -fx-background-color: #ffffff;
+}
+
+.rounded-white-button {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-text-fill: black; /* opsional, agar teks tetap terlihat */
+}
+
+.yellow-label {
+    -fx-background-color: #FFCE87;
+    -fx-text-fill: black; /* agar teks tetap terbaca */
+    -fx-alignment: center;
+    -fx-padding: 5;
+    -fx-background-radius: 20;
+}
+
+.navbar {
+    -fx-padding: 20px 40px;
+    -fx-alignment: center-right;
+}
+
+.nav-item {
+     -fx-background-color: #7AE2D6;
+    -fx-text-fill: white;
+    -fx-font-weight: light;
+    -fx-padding: 6px 14px;
+    -fx-background-radius: 16;    -fx-cursor: hand;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 13px;
+    
+}
+.download-button {
+    -fx-background-color: #7AE2D6;
+    -fx-text-fill: white;
+    -fx-font-weight: light;
+    -fx-padding: 6px 14px;
+    -fx-background-radius: 16;    -fx-cursor: hand;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 13px;
+}
+
+.greeting-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.subtitle-text {
+    -fx-font-size: 16px;
+    -fx-text-fill: #555555;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.search-prompt {
+    -fx-font-size: 16px;
+    -fx-text-fill: #b4b4b4;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.day-box {
+    -fx-background-color: #fff9f9;
+    -fx-padding: 10px;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-alignment: center;
+    -fx-spacing: 4px;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+}
+
+.day-name {
+    -fx-font-size: 12px;
+    -fx-text-fill: #888888;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-alignment: center;
+}
+
+.day-number {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-alignment: center;
+}
+
+.lihat-semua-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-padding: 6px 12px;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.food-entry {
+    -fx-font-size: 20px;
+    -fx-text-fill: #444444;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-padding: 4px;
+    -fx-font-weight: bold;
+}

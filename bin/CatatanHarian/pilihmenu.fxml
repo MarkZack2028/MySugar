@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="CatatanHarian.PilihMenuMakan"
+            stylesheets="@pilihmenu.css">
+
+    <content>
+        <VBox spacing="15">
+            <Label fx:id="labelTanggal" text="Tanggal: -"/>
+            <Label text="Pilih Menu Makanan Harian Anda" />
+
+            <VBox spacing="10">
+                <Label text="Makan Pagi" />
+                <ComboBox fx:id="comboPagi" promptText="Pilih menu pagi..." />
+            </VBox>
+
+            <VBox spacing="10">
+                <Label text="Makan Siang" />
+                <ComboBox fx:id="comboSiang" promptText="Pilih menu siang..." />
+            </VBox>
+
+            <VBox spacing="10">
+                <Label text="Makan Malam" />
+                <ComboBox fx:id="comboMalam" promptText="Pilih menu malam..." />
+            </VBox>
+        </VBox>
+    </content>
+
+    <buttonTypes>
+        <ButtonType  text="Simpan"  buttonData="OK_DONE"/>
+        <ButtonType  text="Batal" buttonData="CANCEL_CLOSE"/>
+    </buttonTypes>
+</DialogPane>

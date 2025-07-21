@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" 
+            maxWidth="-Infinity" 
+            minHeight="-Infinity" 
+            minWidth="-Infinity" 
+            prefHeight="650.0" 
+            prefWidth="1000.0" 
+            xmlns="http://javafx.com/javafx/23.0.1" 
+            xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7efe6" height="654.0" layoutX="-6.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="1006.0" />
+      <HBox layoutX="10.0" layoutY="16.0" prefHeight="631.0" prefWidth="995.0">
+         <children>
+            <Pane>
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#faf7f3" height="641.0" stroke="BLACK" strokeType="INSIDE" width="348.0" />
+                  <Line endX="-1.239776611328125E-5" endY="55.0" startX="348.0" startY="55.0" />
+                  <Pane layoutY="83.0" prefHeight="96.0" prefWidth="348.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#faf7f3" height="105.0" layoutX="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="346.0" />
+                        <ImageView fitHeight="83.0" fitWidth="81.0" layoutX="3.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="/resources/Dokter1.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="90.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. Arief Nugroho">
+                           <font>
+                              <Font name="Arial Narrow" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="92.0" layoutY="41.0" opacity="0.36" strokeType="OUTSIDE" strokeWidth="0.0" text="Spesialis Penyakit Dalam – Konsultan Endokrin, Metabolik, dan Diabetes" wrappingWidth="247.44140625" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="179.0" prefHeight="96.0" prefWidth="348.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#faf7f3" height="96.0" layoutX="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="345.0" />
+                        <ImageView fitHeight="83.0" fitWidth="81.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="/resources/Dokter2.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="90.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. Meira Aulia, Sp.PD">
+                           <font>
+                              <Font name="Arial Narrow" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="91.0" layoutY="44.0" opacity="0.36" strokeType="OUTSIDE" strokeWidth="0.0" text="Khusus menangani pasien dengan gangguan metabolik dan gula darah" wrappingWidth="235.04141235351562" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="273.0" prefHeight="96.0" prefWidth="348.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#faf7f3" height="96.0" layoutX="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="346.0" />
+                        <ImageView fitHeight="83.0" fitWidth="88.0" layoutX="3.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="/resources/Dokter3.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="90.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. Rizky Dharmawan, Sp.PD">
+                           <font>
+                              <Font name="Arial Narrow" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="94.0" layoutY="48.0" opacity="0.36" strokeType="OUTSIDE" strokeWidth="0.0" text="Spesialis Penyakit Dalam dengan fokus kasus diabetes tipe 2" wrappingWidth="235.04141235351562" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="357.0" prefHeight="105.0" prefWidth="348.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#faf7f3" height="96.0" layoutX="1.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="346.0" />
+                        <ImageView fitHeight="83.0" fitWidth="88.0" layoutX="5.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="/resources/Dokter4.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="94.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. Edwin Prakoso, Sp.PD">
+                           <font>
+                              <Font name="Arial Narrow" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="93.0" layoutY="52.0" opacity="0.36" strokeType="OUTSIDE" strokeWidth="0.0" text="Spesialis Penyakit Dalam – pengalaman menangani pasien diabetes kronik" wrappingWidth="235.04141235351562" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="1.0" layoutY="455.0" prefHeight="92.0" prefWidth="348.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#faf7f3" height="92.0" layoutX="1.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="345.0" />
+                        <ImageView fitHeight="92.0" fitWidth="88.0" layoutX="1.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="/resources/Dokter5.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="94.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. Tania Fitria, Sp.PD">
+                           <font>
+                              <Font name="Arial Narrow" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="93.0" layoutY="45.0" opacity="0.36" strokeType="OUTSIDE" strokeWidth="0.0" text="Konsultan diabetes dan hormon" wrappingWidth="235.04141235351562" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="547.0" prefWidth="348.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#faf7f3" height="88.0" layoutX="1.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="346.0" />
+                        <ImageView fitHeight="80.0" fitWidth="85.0" layoutX="3.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="/resources/Dokter6.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="96.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. Ayu Maharani, Sp.PD">
+                           <font>
+                              <Font name="Arial Narrow" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="95.0" layoutY="45.0" opacity="0.36" strokeType="OUTSIDE" strokeWidth="0.0" text="Spesialis Endokrin dan Diabetes" wrappingWidth="235.04141235351562" />
+                     </children>
+                  </Pane>
+                  <Text layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HUBUNGI DOKTER" wrappingWidth="260.73087310791016">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="6.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pesan" wrappingWidth="61.530906677246094">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Line endX="0.9999942779541016" endY="55.0" layoutX="-1.0" layoutY="26.0" opacity="0.05" startX="348.0" startY="55.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="631.0" prefWidth="640.0">
+               <children>
+                  <TextField layoutX="47.0" layoutY="584.0" prefHeight="34.0" prefWidth="583.0" style="-fx-background-radius: 50;" />
+                  <Circle fill="WHITE" layoutX="25.0" layoutY="600.0" radius="17.0" stroke="#faf7f3" strokeType="INSIDE" strokeWidth="0.0" />
+                  <Line endX="-101.0000228881836" endY="62.79998779296875" layoutX="126.0" layoutY="547.0" startX="-101.0000228881836" startY="44.5999755859375" />
+                  <Line endX="-109.99999237060547" endY="49.4000244140625" layoutX="126.0" layoutY="551.0" startX="-92.20000457763672" startY="49.4000244140625" />
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

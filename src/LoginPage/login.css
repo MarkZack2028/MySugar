@@ -1,0 +1,105 @@
+.root {
+    -fx-background-color: #587d71;
+    -fx-font-family: "Arial";
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.input-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555555;
+}
+
+.input-field {
+    -fx-pref-width: 50px;
+    -fx-pref-height: 35px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+.input-field:focused {
+    -fx-border-color: #4a90e2;
+    -fx-effect: dropshadow(gaussian, rgba(74,144,226,0.3), 5, 0.2, 0, 0);
+}
+
+.checkbox {
+    -fx-text-fill: #555555;
+}
+
+.checkbox-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #555555;
+}
+
+.login-button {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 35px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color: #3a7bc8;
+}
+
+.footer-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #777777;
+}
+
+.footer-link {
+    -fx-font-size: 13px;
+    -fx-text-fill: #4a90e2;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-underline: false;
+}
+
+.footer-link:hover {
+    -fx-text-fill: #3a7bc8;
+    -fx-underline: true;
+}
+
+/*show alert*/
+ .dialog-pane {
+    -fx-background-color: linear-gradient(to bottom right, #7AE2D6, #ADEED9);
+    -fx-border-color: #049b61;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: transparent;
+}
+
+.dialog-pane .content.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: #4096ee;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-padding: 8 15 8 15;
+    -fx-font-weight: bold;
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: #2674d9;
+}

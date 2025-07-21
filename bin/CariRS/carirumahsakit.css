@@ -1,0 +1,31 @@
+.root {
+    -fx-background-color: #ADEED9; /* Hijau daun */
+}
+
+.header-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50;
+}
+
+.hospital-name {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.hospital-address {
+    -fx-font-size: 12px;
+    -fx-text-fill: #7F8C8D;
+}
+
+.rs-button {
+    -fx-background-color: #ffffff;         /* Warna latar belakang */
+    -fx-background-radius: 20;             /* Radius lengkung sudut */
+    -fx-border-radius: 20;                 /* Radius lengkung border */
+    -fx-border-color: #2ecc71;             /* Opsional: garis pinggir hijau */
+    -fx-border-width: 2px;
+    -fx-text-fill: #2ecc71;                /* Warna teks */
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}

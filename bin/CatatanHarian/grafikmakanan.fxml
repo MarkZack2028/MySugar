@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" 
+            maxWidth="-Infinity" 
+            minHeight="-Infinity" 
+            minWidth="-Infinity" 
+            prefHeight="400.0" 
+            prefWidth="600.0" 
+            styleClass="chart-background" 
+            stylesheets="@barchart.css" 
+            xmlns="http://javafx.com/javafx/23.0.1" 
+            fx:controller="CatatanHarian.GrafikKaloriController"
+            xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BarChart fx:id="calories_barchart" layoutX="-2.0" prefHeight="334.0" prefWidth="600.0" styleClass="custom-barchart" title="Total Calories">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Button fx:id="calories_backbtn" layoutX="521.0" layoutY="364.0" mnemonicParsing="false" prefHeight="26.0" onAction="#handleBackButton" prefWidth="62.0" styleClass="back-button" text="Back" />
+   </children>
+</AnchorPane>

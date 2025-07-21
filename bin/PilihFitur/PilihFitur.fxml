@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" 
+            maxWidth="-Infinity" 
+            minHeight="-Infinity" 
+            minWidth="-Infinity" 
+            prefHeight="650.0" 
+            prefWidth="1000.0"
+            stylesheets="@PilihFitur.css" 
+            xmlns="http://javafx.com/javafx/23.0.1" 
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="PilihFitur.PilihFiturController">
+   <children>
+      <ImageView fitHeight="648.0" fitWidth="1037.0" layoutX="-20.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/resources/Background.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonHubungi" layoutX="249.0" layoutY="275.0" mnemonicParsing="false" onAction="#keHubungiDokter" prefHeight="35.0" prefWidth="168.0" text="Hubungi Dokter" />
+      <Button fx:id="buttonHasil" layoutX="249.0" layoutY="370.0" mnemonicParsing="false" prefHeight="35.0" onAction="#keHasilPemeriksaan" prefWidth="168.0" text="Hasil Pemeriksaan" />
+      <ImageView fitHeight="54.0" fitWidth="30.0" layoutX="253.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/resources/Phone.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="BuatPendaftaran" layoutX="544.0" layoutY="275.0" mnemonicParsing="false" prefHeight="35.0" onAction="#kePendaftaran" prefWidth="168.0" text="Buat Pendaftaran" />
+      <ImageView fitHeight="30.0" fitWidth="21.0" layoutX="559.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/resources/Ambulance.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonUgd" layoutX="544.0" layoutY="370.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="168.0" onAction="#ugdEmergency" text="UGD" />
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="555.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/resources/Ugd.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="21.0" layoutX="257.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/resources/LogoPesanHasil.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonBack" layoutX="5.0" layoutY="609.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="59.0" styleClass="nav-item" onAction="#backDiPilihFitur" text="Back" />
+   </children>
+</AnchorPane>
